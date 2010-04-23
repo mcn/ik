@@ -15,7 +15,7 @@
 	NSString *title; //Same name as the Entity Name.
 	NSString *link; //Same name as the Entity Name.
 	NSString *pubDate; //Same name as the Entity Name.
-	NSString *description; //Same name as the Entity Name.
+	NSString *content; //Same name as the Entity Name.
 	
 }
 
@@ -23,6 +23,6 @@
 @property (nonatomic, retain) NSString *title;
 @property (nonatomic, retain) NSString *link;
 @property (nonatomic, retain) NSString *pubDate;
-@property (nonatomic, retain) NSString *description;
+@property (nonatomic, retain) NSString *content;
 
 @end

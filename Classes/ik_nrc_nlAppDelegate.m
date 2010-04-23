@@ -40,7 +40,8 @@
 		NSLog(@"Error Error Error!!!");
 	
 	for (ikje *i in ikjes) {
-		NSLog(@"%@ %i .", [i link], [i description]);
+		NSLog(@"link: %@ ", [i link]);
+		NSLog(@"description: %@ ", [i description]);
 	}
 	
 	

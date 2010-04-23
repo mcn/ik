@@ -11,13 +11,13 @@
 
 @implementation ikje
 
-@synthesize guid, title, link, pubDate, description;
+@synthesize guid, title, link, pubDate, content;
 
 - (void) dealloc {
 	[title release];
 	[guid release];
 	[pubDate release];
-	[description release];
+	[content release];
 	[super dealloc];
 }
 

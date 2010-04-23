@@ -12,6 +12,27 @@
 
 @implementation ik_nrc_nlViewController
 
+//-(IBAction) flipButtonPressed:(id) sender {
+//	[UIView beginAnimations:nil context:NULL];
+//	[UIView setAnimationDuration:0.5];
+//	if ([firstView superview]) {
+//		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+//		[firstView removeFromSuperview];   
+//		[self addSubview:secondView];
+//	}
+//	else if ([secondView superview]) {
+//		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
+//		[secondView removeFromSuperview];  
+//		[self addSubview:firstView];
+//	}
+//	[UIView commitAnimations]
+//}
+
+- (IBAction) changeIkje {
+	current++;
+	[self showIkje:(NSInteger *) current];
+	
+}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -33,13 +54,19 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	
     [super viewDidLoad];
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
-	//appDelegate->ikjes;
-	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:0] title];
-	description.text = [[appDelegate.ikjes objectAtIndex:0] description];
+	current = (NSInteger *) 0;
+	[self showIkje:current];
 	NSLog(@"viedDidLoad");
+}
+
+- (void) showIkje:(NSInteger *)i {
+	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
+	NSString *html = @"<html><head><title></title></head><body>";
+	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
+	html = [html stringByAppendingFormat:@"</body></html>"];
+	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://www.google.com/"]];
 }
 
 

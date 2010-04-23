@@ -10,13 +10,18 @@
 
 @class ik_nrc_nlAppDelegate;
 
-@interface ik_nrc_nlViewController : UIViewController <UITextViewDelegate> {
+@interface ik_nrc_nlViewController : UIViewController {
 	
 	ik_nrc_nlAppDelegate *appDelegate;
 	
-	IBOutlet UITextView	*description;
+//	IBOutlet UITextView	*description;
+	IBOutlet UIWebView *description;
 	IBOutlet UINavigationBar *navigationBar;
+	NSInteger current;
 }
+
+- (IBAction) changeIkje;
+- (void) showIkje:(NSInteger *)i;
 
 @end
 
