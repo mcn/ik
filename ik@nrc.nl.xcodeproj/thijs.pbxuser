@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ik@nrc.nl */ = {
+		activeExec = 0;
+		executables = (
+			76CDFD6511825F50004DA8B8 /* ik@nrc.nl */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 76CDFD6511825F50004DA8B8 /* ik@nrc.nl */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ik@nrc.nl */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ik@nrc.nl */,
+		);
+		codeSenseManager = 76CDFD8411825F5A004DA8B8 /* Code sense */;
+		executables = (
+			76CDFD6511825F50004DA8B8 /* ik@nrc.nl */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293757161;
+			PBXWorkspaceStateSaveDate = 293757161;
+		};
+		perUserProjectItems = {
+			761B61E4118260EB00D07056 /* PlistBookmark */ = 761B61E4118260EB00D07056 /* PlistBookmark */;
+			768609ED1182601700EC3762 = 768609ED1182601700EC3762 /* PlistBookmark */;
+			768609EE1182601700EC3762 = 768609EE1182601700EC3762 /* PlistBookmark */;
+		};
+		sourceControlManager = 76CDFD8311825F5A004DA8B8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	761B61E4118260EB00D07056 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIPrerenderedIcon,
+		);
+		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	768609ED1182601700EC3762 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	768609EE1182601700EC3762 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIPrerenderedIcon,
+		);
+		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	76CDFD6511825F50004DA8B8 /* ik@nrc.nl */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "ik@nrc.nl";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	76CDFD8311825F5A004DA8B8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	76CDFD8411825F5A004DA8B8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
