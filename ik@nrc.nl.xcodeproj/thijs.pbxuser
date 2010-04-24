@@ -44,48 +44,36 @@
 			PBXWorkspaceStateSaveDate = 293757161;
 		};
 		perUserProjectItems = {
-			761B61E4118260EB00D07056 /* PlistBookmark */ = 761B61E4118260EB00D07056 /* PlistBookmark */;
-			768609ED1182601700EC3762 = 768609ED1182601700EC3762 /* PlistBookmark */;
-			768609EE1182601700EC3762 = 768609EE1182601700EC3762 /* PlistBookmark */;
+			761B61ED118262AB00D07056 /* PlistBookmark */ = 761B61ED118262AB00D07056 /* PlistBookmark */;
+			761B61EE118262AB00D07056 /* PlistBookmark */ = 761B61EE118262AB00D07056 /* PlistBookmark */;
 		};
 		sourceControlManager = 76CDFD8311825F5A004DA8B8 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	761B61E4118260EB00D07056 /* PlistBookmark */ = {
+	761B61ED118262AB00D07056 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
-			UIPrerenderedIcon,
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
+		rLen = 7;
+		rLoc = 0;
+	};
+	761B61EE118262AB00D07056 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
 		);
 		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775807;
-	};
-	768609ED1182601700EC3762 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	768609EE1182601700EC3762 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			UIPrerenderedIcon,
-		);
-		name = "/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	76CDFD6511825F50004DA8B8 /* ik@nrc.nl */ = {
 		isa = PBXExecutable;

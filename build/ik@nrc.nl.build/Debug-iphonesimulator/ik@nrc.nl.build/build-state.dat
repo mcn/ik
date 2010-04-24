@@ -1,7 +1,7 @@
 Tik@nrc.nl
 v7
 r0
-t293756935.249877
+t293757463.495347
 cCheck dependencies
 cProcessInfoPlistFile /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist ik_nrc_nl-Info.plist
 cCompileXIB /Users/thijs/Dev/iPhone/ik@nrc.nl/MainWindow.xib
@@ -269,7 +269,7 @@ t1272008348
 s20970
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app
-t1272064135
+t1272064422
 s306
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app.dSYM
@@ -277,7 +277,7 @@ t1272063960
 s102
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist
-t1272064135
+t1272064422
 s660
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/MainWindow.nib
@@ -285,7 +285,7 @@ t1272010498
 s1514
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo
-t1272064135
+t1272064422
 s8
 
 N/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik.png
@@ -388,7 +388,7 @@ s954
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies293756935#293756935#0(0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies293757463#293757463#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s293751981.487402
@@ -620,13 +620,13 @@ xik_nrc_nl-Info.plist
 lSLF07#2@28"Process ik_nrc_nl-Info.plist293658050#293658050#0(0"0(0#0#65"/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nl-Info.plist4300911832#505"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ik_nrc_nl-Info.plist -genpkginfo /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist0#
 
 CProcessInfoPlistFile /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist ik_nrc_nl-Info.plist
-s293756935.236168
-e293756935.242829
+s293757222.093496
+e293757222.114196
 r1
 xProcessInfoPlistFile
 x/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist
 xik_nrc_nl-Info.plist
-lSLF07#2@28"Process ik_nrc_nl-Info.plist293756935#293756935#0(0"0(0#0#54"/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist30962724186357872#472"    cd "/Users/thijs/Dev/iPhone/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ik_nrc_nl-Info.plist -genpkginfo /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist0#
+lSLF07#2@28"Process ik_nrc_nl-Info.plist293757222#293757222#0(0"0(0#0#54"/Users/thijs/Dev/iPhone/ik@nrc.nl/ik_nrc_nl-Info.plist30962724186357872#472"    cd "/Users/thijs/Dev/iPhone/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ik_nrc_nl-Info.plist -genpkginfo /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist0#
 
 CProcessPCH /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch ik_nrc_nl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s293657386.387106
@@ -676,10 +676,10 @@ x/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc
 lSLF07#2@92"Touch /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app293754112#293754112#0(0"0(0#0#0"4300911832#294"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app0#
 
 CTouch /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app
-s293756935.244750
-e293756935.249817
+s293757222.115312
+e293757222.118454
 r1
 xTouch
 x/Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app
-lSLF07#2@81"Touch /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app293756935#293756935#0(0"0(0#0#0"4300911832#272"    cd "/Users/thijs/Dev/iPhone/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app0#
+lSLF07#2@81"Touch /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app293757222#293757222#0(0"0(0#0#0"27303536605069420#272"    cd "/Users/thijs/Dev/iPhone/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thijs/Dev/iPhone/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app0#
 
