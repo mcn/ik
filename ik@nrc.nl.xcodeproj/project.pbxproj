@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* ik_nrc_nlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ik_nrc_nlViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ik_nrc_nlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ik_nrc_nlViewController.m */; };
+		767BAF6B1183600100CDDDDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BAF6A1183600100CDDDDE /* Default.png */; };
 		76CDFD8711825FA5004DA8B8 /* ik.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CDFD8611825FA5004DA8B8 /* ik.png */; };
 		8127896811833DAE005508EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8127896711833DAE005508EA /* MessageUI.framework */; };
 		814329251180D6DE0066A210 /* ikje.m in Sources */ = {isa = PBXBuildFile; fileRef = 814329241180D6DE0066A210 /* ikje.m */; };
@@ -35,6 +36,7 @@
 		28D7ACF70DDB3853001CB0EB /* ik_nrc_nlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ik_nrc_nlViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ik_nrc_nl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ik_nrc_nl_Prefix.pch; sourceTree = "<group>"; };
+		767BAF6A1183600100CDDDDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		76CDFD8611825FA5004DA8B8 /* ik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ik.png; sourceTree = "<group>"; };
 		8127896711833DAE005508EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		814329231180D6DE0066A210 /* ikje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikje.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				767BAF6A1183600100CDDDDE /* Default.png */,
 				76CDFD8611825FA5004DA8B8 /* ik.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -173,6 +176,7 @@
 				2899E5220DE3E06400AC0155 /* ik_nrc_nlViewController.xib in Resources */,
 				81432B0E118102780066A210 /* ik.xml in Resources */,
 				76CDFD8711825FA5004DA8B8 /* ik.png in Resources */,
+				767BAF6B1183600100CDDDDE /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
