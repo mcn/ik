@@ -11,13 +11,11 @@
 @class ik_nrc_nlAppDelegate;
 
 @interface ik_nrc_nlViewController : UIViewController {
-	
-	ik_nrc_nlAppDelegate *appDelegate;
-	
 	IBOutlet UIWebView *description;
-	IBOutlet UINavigationBar *navigationBar;
+	IBOutlet UINavigationItem *ikjeTitle;
 	IBOutlet UIBarButtonItem *older;
 	IBOutlet UIBarButtonItem *newer;
+	ik_nrc_nlAppDelegate *appDelegate;
 	int current;
 }
 
