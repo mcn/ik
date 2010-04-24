@@ -16,6 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ik_nrc_nlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ik_nrc_nlViewController.m */; };
 		76CDFD8711825FA5004DA8B8 /* ik.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CDFD8611825FA5004DA8B8 /* ik.png */; };
+		8127896811833DAE005508EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8127896711833DAE005508EA /* MessageUI.framework */; };
 		814329251180D6DE0066A210 /* ikje.m in Sources */ = {isa = PBXBuildFile; fileRef = 814329241180D6DE0066A210 /* ikje.m */; };
 		8143292A1180D9E40066A210 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 814329291180D9E40066A210 /* XMLParser.m */; };
 		81432B0E118102780066A210 /* ik.xml in Resources */ = {isa = PBXBuildFile; fileRef = 81432B0D118102780066A210 /* ik.xml */; };
@@ -35,6 +36,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ik_nrc_nl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ik_nrc_nl_Prefix.pch; sourceTree = "<group>"; };
 		76CDFD8611825FA5004DA8B8 /* ik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ik.png; sourceTree = "<group>"; };
+		8127896711833DAE005508EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		814329231180D6DE0066A210 /* ikje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikje.h; sourceTree = "<group>"; };
 		814329241180D6DE0066A210 /* ikje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ikje.m; sourceTree = "<group>"; };
 		814329281180D9E40066A210 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				8127896811833DAE005508EA /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				814329231180D6DE0066A210 /* ikje.h */,
 				814329241180D6DE0066A210 /* ikje.m */,
+				8127896711833DAE005508EA /* MessageUI.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

@@ -12,22 +12,6 @@
 
 @implementation ik_nrc_nlViewController
 
-//-(IBAction) flipButtonPressed:(id) sender {
-//	[UIView beginAnimations:nil context:NULL];
-//	[UIView setAnimationDuration:0.5];
-//	if ([firstView superview]) {
-//		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
-//		[firstView removeFromSuperview];   
-//		[self addSubview:secondView];
-//	}
-//	else if ([secondView superview]) {
-//		[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
-//		[secondView removeFromSuperview];  
-//		[self addSubview:firstView];
-//	}
-//	[UIView commitAnimations]
-//}
-
 - (IBAction) olderIkje {
 	if (current < ([appDelegate.ikjes count] - 1 )) {
 		current++;
@@ -38,12 +22,48 @@
 
 - (IBAction) newerIkje {
 	
-	if (current != 0) {
-		current--;
-		[self showIkje:current];
-	}
-	[self arrangeButtons];
+	UIActionSheet *sheet = [[UIActionSheet alloc]
+							initWithTitle: @""
+							delegate:self
+							cancelButtonTitle:@"Annuleren"
+							destructiveButtonTitle:nil
+							otherButtonTitles:@"Insturen", @"Versturen", nil];
+	[sheet showInView:self.view];
+	[sheet release];
+	
+	//if (current != 0) {
+//		current--;
+//		[self showIkje:current];
+//	}
+//	[self arrangeButtons];
 }
+
+- (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)indexPath
+{
+	NSLog(@"indexPath: %d", indexPath);
+    //NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+    switch (indexPath)
+	{
+        case 0:
+		{
+			
+//			NSString * videoLink = @"http://vpodcast.dr.dk/DR2/Soeinding/2009/Soeinding_0910132030.mp4";
+//			NSLog(@"Playing video: %@", videoLink);
+//			
+//			NSURL *movieURL = [[NSURL URLWithString:videoLink] retain];
+//			
+//			MPMoviePlayerController *DingPlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
+//			[DingPlayer play];
+        } break;
+		case 1:
+			[self showEmailModalView];
+		break;
+
+			
+    }
+//    [self.tableView deselectRowAtIndexPath:selectedIndexPath animated:YES];
+}
+
 
 - (void) arrangeButtons {
 	NSLog(@"arrangeButtons: %d", current);
@@ -55,18 +75,7 @@
 		newer.enabled = YES;
 		older.enabled = YES;
 	}
-
 }
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
 
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -93,14 +102,55 @@
 	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/"]];
 }
 
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+-(void) showEmailModalView {
+	ikje *currentIkje = [appDelegate.ikjes objectAtIndex:current];
+    MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+    picker.mailComposeDelegate = self; // <- very important step if you want feedbacks on what the user did with your email sheet
+	
+    [picker setSubject:@"subject"];
+	
+    // Fill out the email body text
+    NSString *pageLink = @"http://mugunthkumar.com/mygreatapp"; // replace it with yours
+    NSString *iTunesLink = @"http://link-to-mygreatapp"; // replate it with yours
+    NSString *emailBody = [NSString stringWithFormat:@"%@\n\n<h3>Sent from <a href = '%@'>MyGreatApp</a> on iPhone. <a href = '%@'>Download</a> yours from AppStore now!</h3>", currentIkje.guid, pageLink, iTunesLink];
+	
+    [picker setMessageBody:emailBody isHTML:YES]; // depends. Mostly YES, unless you want to send it as plain text (boring)
+	
+    [self presentModalViewController:picker animated:YES];
+    [picker release];
+	
 }
-*/
+
+// Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{ 
+    // Notifies users about errors associated with the interface
+    switch (result)
+    {
+		case MFMailComposeResultCancelled:
+			break;
+		case MFMailComposeResultSaved:
+			break;
+		case MFMailComposeResultSent:
+			break;
+		case MFMailComposeResultFailed:
+			break;
+			
+		default:
+		{
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email" 
+															message:@"Sending Failed – Unknown Error :-( "
+															delegate:self 
+															cancelButtonTitle:@"OK"
+															otherButtonTitles: nil];
+			 [alert show];
+			 [alert release];
+		}
+		break;
+	}
+	[self dismissModalViewControllerAnimated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
