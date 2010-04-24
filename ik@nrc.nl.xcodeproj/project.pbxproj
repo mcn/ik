@@ -35,7 +35,6 @@
 		28D7ACF70DDB3853001CB0EB /* ik_nrc_nlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ik_nrc_nlViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ik_nrc_nl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ik_nrc_nl_Prefix.pch; sourceTree = "<group>"; };
-		76802AF8118318CF00B9A40E /* ikjes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikjes.png; sourceTree = "<group>"; };
 		76CDFD8611825FA5004DA8B8 /* ik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ik.png; sourceTree = "<group>"; };
 		8127896711833DAE005508EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		814329231180D6DE0066A210 /* ikje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikje.h; sourceTree = "<group>"; };
