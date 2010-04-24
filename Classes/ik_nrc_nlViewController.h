@@ -14,14 +14,17 @@
 	
 	ik_nrc_nlAppDelegate *appDelegate;
 	
-//	IBOutlet UITextView	*description;
 	IBOutlet UIWebView *description;
 	IBOutlet UINavigationBar *navigationBar;
-	NSInteger current;
+	IBOutlet UIBarButtonItem *older;
+	IBOutlet UIBarButtonItem *newer;
+	int current;
 }
 
-- (IBAction) changeIkje;
-- (void) showIkje:(NSInteger *)i;
+- (IBAction) newerIkje;
+- (IBAction) olderIkje;
+- (void) showIkje:(int)i;
+- (void) arrangeButtons;
 
 @end
 
