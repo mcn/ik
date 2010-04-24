@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
 @class ik_nrc_nlAppDelegate;
 
-@interface ik_nrc_nlViewController : UIViewController {
+@interface ik_nrc_nlViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate> {
 	
 	ik_nrc_nlAppDelegate *appDelegate;
 	
@@ -25,6 +26,7 @@
 - (IBAction) olderIkje;
 - (void) showIkje:(int)i;
 - (void) arrangeButtons;
+- (void) showEmailModalView;
 
 @end
 
