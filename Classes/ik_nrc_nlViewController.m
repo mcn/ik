@@ -87,10 +87,10 @@
 
 - (void) showIkje:(int)i {
 	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
-	NSString *html = @"<html><head><title></title></head><body>";
+	NSString *html = @"<html><head><title></title><style type=\"text/css\">body{font-family: verdana; font-size: 13px; line-height: 150%} strong{display: block;text-transform: uppercase; text-align: right;}</style></head><body>";
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
 	html = [html stringByAppendingFormat:@"</body></html>"];
-	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://www.google.com/"]];
+	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/"]];
 }
 
 
