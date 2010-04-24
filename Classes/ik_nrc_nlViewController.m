@@ -28,10 +28,34 @@
 //	[UIView commitAnimations]
 //}
 
-- (IBAction) changeIkje {
-	current++;
-	[self showIkje:(NSInteger *) current];
+- (IBAction) olderIkje {
+	if (current < ([appDelegate.ikjes count] - 1 )) {
+		current++;
+		[self showIkje:current];
+	}
+	[self arrangeButtons];
+}
+
+- (IBAction) newerIkje {
 	
+	if (current != 0) {
+		current--;
+		[self showIkje:current];
+	}
+	[self arrangeButtons];
+}
+
+- (void) arrangeButtons {
+	NSLog(@"arrangeButtons: %d", current);
+	if (current == 0) {
+		newer.enabled = NO;
+	} else if (current == ([appDelegate.ikjes count] - 1 )) {
+		older.enabled = NO;
+	} else {
+		newer.enabled = YES;
+		older.enabled = YES;
+	}
+
 }
 
 /*
@@ -56,12 +80,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
-	current = (NSInteger *) 0;
+	current = 0;
 	[self showIkje:current];
 	NSLog(@"viedDidLoad");
 }
 
-- (void) showIkje:(NSInteger *)i {
+- (void) showIkje:(int)i {
 	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
 	NSString *html = @"<html><head><title></title></head><body>";
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
