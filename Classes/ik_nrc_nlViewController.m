@@ -27,7 +27,7 @@
 							delegate:self
 							cancelButtonTitle:@"Annuleren"
 							destructiveButtonTitle:nil
-							otherButtonTitles:@"Een ‘ik’ insturen", @"Deze ‘ik’ versturen", nil];
+							otherButtonTitles:@"Zelf een ‘ik’ insturen", @"Kopieer link van deze ‘ik’", @"Deze ‘ik’ versturen", nil];
 	[sheet showInView:self.view];
 	[sheet release];
 	
@@ -56,6 +56,9 @@
 //			[DingPlayer play];
         } break;
 		case 1:
+		
+			break;
+		case 2:
 			[self showEmailModalView];
 		break;
 

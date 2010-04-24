@@ -84,7 +84,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				76802AF8118318CF00B9A40E /* ikjes.png */,
 				76CDFD8611825FA5004DA8B8 /* ik.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
