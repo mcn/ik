@@ -1,369 +1,0 @@
-Tik@nrc.nl
-v7
-r0
-t293657388.381056
-cCheck dependencies
-cProcessInfoPlistFile /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist ik_nrc_nl-Info.plist
-cCompileXIB /Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib
-cCompileXIB /Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib
-cProcessPCH /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch ik_nrc_nl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/main.o /Users/martijngastkemper/Documents/ik@nrc.nl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlAppDelegate.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlViewController.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ikje.o /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BBFB3C00000000000000110
-t1270854592
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BA03AB3000000000026F020
-t1268791987
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F1DE40000000000289C20
-t1268719076
-s2661408
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F1DD60000000000001355
-t1268719062
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BA6CAEC000000000000098F
-t1269222124
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BA6CB31000000000214E400
-t1269222193
-s34923520
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.h
-c000000004BD0A2C80000000000000176
-t1271964360
-s374
-i<Foundation/Foundation.h>
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m
-c000000004BD0A30E0000000000000135
-t1271964430
-s309
-i"XMLParser.h"
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.h
-c000000004BD0A1F3000000000000023A
-t1271964147
-s570
-i<UIKit/UIKit.h>
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m
-c000000004BD0A3900000000000000521
-t1271964560
-s1313
-i"ik_nrc_nlAppDelegate.h"
-i"ik_nrc_nlViewController.h"
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.h
-c000000004BD09C7200000000000000F3
-t1271962738
-s243
-i<UIKit/UIKit.h>
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m
-c000000004BD09C7200000000000005C0
-t1271962738
-s1472
-i"ik_nrc_nlViewController.h"
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib
-c000000004BD09C720000000000002662
-t1271962738
-s9826
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app.dSYM
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist
-t1271964585
-s599
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/MainWindow.nib
-t1271964586
-s1121
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo
-t1271964585
-s8
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik@nrc.nl
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik_nrc_nlViewController.nib
-t1271964586
-s800
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik@nrc.nl.LinkFileList
-c000000004BD0A3A900000000000002BC
-t1271964585
-s700
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlAppDelegate.o
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlViewController.o
-t1271964588
-s34036
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ikje.o
-t2
-s0
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/main.o
-t1271964587
-s5956
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib
-c000000004BD09C720000000000001A4D
-t1271962738
-s6733
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nl_Prefix.pch
-c000000004BD09C7200000000000000BB
-t1271962738
-s187
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h
-c000000004BD0A0EC00000000000002C5
-t1271963884
-s709
-i<Foundation/Foundation.h>
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m
-c000000004BD0A18D0000000000000163
-t1271964045
-s355
-i"ikje.h"
-
-N/Users/martijngastkemper/Documents/ik@nrc.nl/main.m
-c000000004BD09C73000000000000016A
-t1271962739
-s362
-i<UIKit/UIKit.h>
-
-N/var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch
-t1271964587
-s13805456
-
-N/var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-frwphxuacvyhbtegdphhzugdqwzu/ik_nrc_nl_Prefix.pch.gch
-t2
-s0
-
-Nik_nrc_nl-Info.plist
-c000000004BD09C72000000000000038D
-t1271962738
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies293657385#293657385#0(0"0(0#1#0"7947009927035180032#0"0#
-
-CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657388.064632
-e293657388.380954
-r0
-xCompileC
-xbuild/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o
-x/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:13: error: expected identifier or '(' before '[' token
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: data definition has no type or storage class
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: type defaults to 'int' in declaration of 'appDelegate'
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: initialization makes integer from pointer without a cast
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: error: initializer element is not constant
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:17: error: expected identifier or '(' before 'return'
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:18: warning: incomplete implementation of class 'XMLParser'
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:18: warning: method definition for '-initXMLParser' not found
-lSLF07#2@72"Compile /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657388#293657388#0(994"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:13: error: expected identifier or '(' before '[' token/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: data definition has no type or storage class/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: type defaults to 'int' in declaration of 'appDelegate'/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: warning: initialization makes integer from pointer without a cast/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:15: error: initializer element is not constant/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:17: error: expected identifier or '(' before 'return'/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:18: warning: incomplete implementation of class 'XMLParser'/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m:18: warning: method definition for '-initXMLParser' not found8(4@43"Expected identifier or '(' before '[' token293657388#0#120#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#13#0#13#0#19"expected * before *0(22@44"Data definition has no type or storage class293657388#120#123#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#15#0#15#0#44"data definition has no type or storage class0(22@54"Type defaults to 'int' in declaration of 'appDelegate'293657388#243#133#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#15#0#15#0#42"type defaults to '*' in declaration of '*'0(22@56"Initialization makes integer from pointer without a cast293657388#376#135#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#15#0#15#0#0"0(4@35"Initializer element is not constant293657388#511#112#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#15#0#15#0#35"initializer element is not constant0(4@42"Expected identifier or '(' before 'return'293657388#623#119#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#17#0#17#0#19"expected * before *0(22@46"Incomplete implementation of class 'XMLParser'293657388#742#125#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#18#0#18#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-initXMLParser' not found293657388#867#127#0(6@64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m293657230#18#0#18#0#35"method definition for '*' not found0(0#0#64"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m4300911832#1983"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -include /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch -c /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/XMLParser.m -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/XMLParser.o1#
-
-CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlAppDelegate.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657387.553836
-e293657387.731210
-r0
-xCompileC
-xbuild/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlAppDelegate.o
-x/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m: In function '-[ik_nrc_nlAppDelegate applicationDidFinishLaunching:]':
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: 'XMLParser' undeclared (first use in this function)
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: (Each undeclared identifier is reported only once
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: for each function it appears in.)
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: 'parser' undeclared (first use in this function)
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:48: error: 'navigationController' undeclared (first use in this function)
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m: At top level:
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:60: warning: property 'ikjes' requires method '-ikjes' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:60: warning: property 'ikjes' requires the method 'setIkjes:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
-o{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
-o{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-lSLF07#2@83"Compile /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657387#293657387#0(2238"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m: In function '-[ik_nrc_nlAppDelegate applicationDidFinishLaunching:]':/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: 'XMLParser' undeclared (first use in this function)/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: (Each undeclared identifier is reported only once/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: for each function it appears in.)/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:34: error: 'parser' undeclared (first use in this function)/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:48: error: 'navigationController' undeclared (first use in this function)/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m: At top level:/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:60: warning: property 'ikjes' requires method '-ikjes' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m:60: warning: property 'ikjes' requires the method 'setIkjes:' to be defined - use @synthesize, @dynamic or provide a method implementation{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16(4@51"'XMLParser' undeclared (first use in this function)293657387#147#139#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#34#0#34#0#43"'*' undeclared (first use in this function)0(4@48"'parser' undeclared (first use in this function)293657387#544#136#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#34#0#34#0#43"'*' undeclared (first use in this function)0(4@62"'navigationController' undeclared (first use in this function)293657387#680#150#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#48#0#48#0#43"'*' undeclared (first use in this function)0(23@13"At top level:293657387#830#91#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#0#0#0#0#0"0(22@118"Property 'ikjes' requires method '-ikjes' to be defined - use @synthesize, @dynamic or provide a method implementation293657387#921#208#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#60#0#60#0#0"0(22@125"Property 'ikjes' requires the method 'setIkjes:' to be defined - use @synthesize, @dynamic or provide a method implementation293657387#1129#215#0(6@75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m293657360#60#0#60#0#0"0(0#0#75"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m4300911832#2005"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -include /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch -c /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlAppDelegate.m -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlAppDelegate.o1#
-
-CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlViewController.o /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657387.731362
-e293657388.064520
-r1
-xCompileC
-xbuild/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlViewController.o
-x/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m293657387#293657388#0(0"0(0#0#78"/Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m4300911832#2011"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -include /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch -c /Users/martijngastkemper/Documents/ik@nrc.nl/Classes/ik_nrc_nlViewController.m -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ik_nrc_nlViewController.o0#
-
-CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ikje.o /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657387.732559
-e293657388.071690
-r0
-xCompileC
-xbuild/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ikje.o
-x/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:9:
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:22: error: statically allocated instance of Objective-C class 'NSString'
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:28: error: can not use an object as parameter to a method
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:28: error: can not use an object as parameter to a method
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:14: error: type of property 'guid' does not match type of ivar 'guid'
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m: In function '-[ikje dealloc]':
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: 'links' undeclared (first use in this function)
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: (Each undeclared identifier is reported only once
-o/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: for each function it appears in.)
-lSLF07#2@59"Compile /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293657387#293657388#0(949"In file included from /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:9:/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:22: error: statically allocated instance of Objective-C class 'NSString'/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:28: error: can not use an object as parameter to a method/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h:28: error: can not use an object as parameter to a method/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:14: error: type of property 'guid' does not match type of ivar 'guid'/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m: In function '-[ikje dealloc]':/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: 'links' undeclared (first use in this function)/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: (Each undeclared identifier is reported only once/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m:19: error: for each function it appears in.)5(4@61"Statically allocated instance of Objective-C class 'NSString'293657387#77#125#2(7@73"In file included from /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293656845#9#0#9#0#0"0(13@116"Statically allocated instance of Objective-C class 'NSString' in /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#22#0#22#0#0"0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#22#0#22#0#0"0(4@46"Can not use an object as parameter to a method293657387#202#110#2(7@73"In file included from /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293656845#9#0#9#0#0"0(13@101"Can not use an object as parameter to a method in /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#28#0#28#0#0"0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#28#0#28#0#0"0(4@46"Can not use an object as parameter to a method293657387#312#110#2(7@73"In file included from /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293656845#9#0#9#0#0"0(13@101"Can not use an object as parameter to a method in /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293657387#18446744073709551615#0#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#28#0#28#0#0"0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.h293656684#28#0#28#0#0"0(4@58"Type of property 'guid' does not match type of ivar 'guid'293657387#422#122#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293656845#14#0#14#0#0"0(4@47"'links' undeclared (first use in this function)293657387#628#111#0(6@51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m293656845#19#0#19#0#43"'*' undeclared (first use in this function)0(0#0#51"/Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m4300911832#1965"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -include /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch -c /Users/martijngastkemper/Documents/ik@nrc.nl/ikje.m -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/ikje.o1#
-
-CCompileC build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/main.o /Users/martijngastkemper/Documents/ik@nrc.nl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657387.552644
-e293657387.732476
-r1
-xCompileC
-xbuild/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/main.o
-x/Users/martijngastkemper/Documents/ik@nrc.nl/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/martijngastkemper/Documents/ik@nrc.nl/main.m293657387#293657387#0(0"0(0#0#51"/Users/martijngastkemper/Documents/ik@nrc.nl/main.m4300911832#1965"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -include /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch -c /Users/martijngastkemper/Documents/ik@nrc.nl/main.m -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib
-s293657385.811726
-e293657386.386881
-r1
-xCompileXIB
-x/Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib293657385#293657386#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib4300911832#502"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/MainWindow.nib /Users/martijngastkemper/Documents/ik@nrc.nl/MainWindow.xib0#
-
-CCompileXIB /Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib
-s293657385.813205
-e293657386.379370
-r1
-xCompileXIB
-x/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@38"CompileXIB ik_nrc_nlViewController.xib293657385#293657386#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib4300911832#528"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik_nrc_nlViewController.nib /Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nlViewController.xib0#
-
-CGenerateDSYMFile /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app.dSYM /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik@nrc.nl
-r0
-
-CLd /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/ik@nrc.nl normal i386
-r0
-
-CProcessInfoPlistFile /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist ik_nrc_nl-Info.plist
-s293657385.773878
-e293657385.811593
-r1
-xProcessInfoPlistFile
-x/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist
-xik_nrc_nl-Info.plist
-lSLF07#2@28"Process ik_nrc_nl-Info.plist293657385#293657385#0(0"0(0#0#65"/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nl-Info.plist13229753409208424#505"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ik_nrc_nl-Info.plist -genpkginfo /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app/Info.plist0#
-
-CProcessPCH /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch ik_nrc_nl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s293657386.387106
-e293657387.552465
-r1
-xProcessPCH
-x/var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch
-xik_nrc_nl_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile ik_nrc_nl_Prefix.pch293657386#293657387#0(0"0(0#0#65"/Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nl_Prefix.pch4300911832#1849"    cd "/Users/martijngastkemper/Documents/ik@nrc.nl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-generated-files.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-own-target-headers.hmap -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-all-target-headers.hmap -iquote /Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/ik@nrc.nl-project-headers.hmap -F/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/include -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources/i386 -I/Users/martijngastkemper/Documents/ik@nrc.nl/build/ik@nrc.nl.build/Debug-iphonesimulator/ik@nrc.nl.build/DerivedSources -c /Users/martijngastkemper/Documents/ik@nrc.nl/ik_nrc_nl_Prefix.pch -o /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-dozdysxcrybzwsdummwzlcsgjkwy/ik_nrc_nl_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/3v/3vAQRxVcFWu0SqoCWtGe8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ik_nrc_nl_Prefix-frwphxuacvyhbtegdphhzugdqwzu/ik_nrc_nl_Prefix.pch.gch ik_nrc_nl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch /Users/martijngastkemper/Documents/ik@nrc.nl/build/Debug-iphonesimulator/ik@nrc.nl.app
-r0
-
