@@ -39,10 +39,10 @@
 	else
 		NSLog(@"Error Error Error!!!");
 	
-//	for (ikje *i in ikjes) {
-//		NSLog(@"link: %@ ", [i link]);
-//		NSLog(@"description: %@ ", [i description]);
-//	}
+	for (ikje *i in ikjes) {
+		NSLog(@"link: %@ ", [i link]);
+		NSLog(@"description: %@ ", [i description]);
+	}
 	
 	
 	// Configure and show the window

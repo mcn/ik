@@ -81,13 +81,12 @@
     [super viewDidLoad];
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
 	current = 0;
-	[self arrangeButtons];
 	[self showIkje:current];
 	NSLog(@"viedDidLoad");
 }
 
 - (void) showIkje:(int)i {
-	ikjeTitle.title = [[appDelegate.ikjes objectAtIndex:i] title];
+	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
 	NSString *html = @"<html><head><title></title></head><body>";
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
 	html = [html stringByAppendingFormat:@"</body></html>"];
