@@ -26,7 +26,7 @@
 }
 
 - (IBAction) navIkjes {
-	NSLog(@"navIkjes: %d", buttons.selectedSegmentIndex);
+	NSLog(@"navIkjes");
 	switch (buttons.selectedSegmentIndex ) {
 		case 0:
 			if (current < ([appDelegate.ikjes count] - 1 )) {
@@ -100,6 +100,7 @@
 }
 
 - (void) showIkje:(int)i {
+	NSLog(@"showikje: %d", i);
 	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
 	NSString *html = @"<html><head><title></title><style type=\"text/css\">body{font-family: verdana; font-size: 13px; line-height: 150%} strong{display: block;text-transform: uppercase; text-align: right;}</style></head><body>";
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];

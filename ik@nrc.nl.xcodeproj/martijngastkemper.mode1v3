@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>81278B6C118455C2005508EA</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>XMLParser.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>81278B6D118455C2005508EA</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>XMLParser.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>81278B841184579F005508EA</string>
+						<key>history</key>
+						<array>
+							<string>81278B73118455E2005508EA</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {949, 677}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 60 949 718 0 0 1920 1178 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -229,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +317,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>7</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -310,8 +353,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -329,26 +370,27 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>81278A7F11843BDE005508EA</string>
+										<string>81278B831184579F005508EA</string>
 										<key>history</key>
 										<array>
 											<string>81432B13118103B20066A210</string>
-											<string>813434AE1182430E00C8E451</string>
 											<string>813434DC11824CFB00C8E451</string>
-											<string>812789DA118367E3005508EA</string>
 											<string>81278A4A118433FC005508EA</string>
 											<string>81278A4B118433FC005508EA</string>
-											<string>81278A4C118433FC005508EA</string>
-											<string>81278A4D118433FC005508EA</string>
 											<string>81278A4E118433FC005508EA</string>
 											<string>81278A4F118433FC005508EA</string>
 											<string>81278A50118433FC005508EA</string>
 											<string>81278A54118433FC005508EA</string>
 											<string>81278A6B11843AD6005508EA</string>
-											<string>81278A6C11843AD6005508EA</string>
-											<string>81278A6D11843AD6005508EA</string>
-											<string>81278A6E11843AD6005508EA</string>
-											<string>81278A6F11843AD6005508EA</string>
+											<string>81278ADB118449EF005508EA</string>
+											<string>81278ADC118449EF005508EA</string>
+											<string>81278B47118452A5005508EA</string>
+											<string>81278B4C118452D0005508EA</string>
+											<string>81278B5F11845585005508EA</string>
+											<string>81278B6011845585005508EA</string>
+											<string>81278B68118455C2005508EA</string>
+											<string>81278B69118455C2005508EA</string>
+											<string>81278B6A118455C2005508EA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -549,6 +591,7 @@
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8143291D1180D3F80066A210</string>
 		<string>/Users/martijngastkemper/Documents/git_test/ik/ik@nrc.nl.xcodeproj</string>
+		<string>81278B6C118455C2005508EA</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
@@ -573,7 +616,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>XMLParser.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -590,6 +633,8 @@
 							<string>222pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -642,7 +687,7 @@
 			<key>WindowToolGUID</key>
 			<string>8143291D1180D3F80066A210</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

@@ -61,7 +61,8 @@
 		aIkje = nil;
 	}
 	else if ([elementName isEqualToString:@"link"] || [elementName isEqualToString:@"guid"] || [elementName isEqualToString:@"title"] || [elementName isEqualToString:@"pubDate"] )	{
-		[aIkje setValue:currentElementValue forKey:elementName];
+		//currentElementValue = [currentElementValue mstringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		[aIkje setValue:[currentElementValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]forKey:elementName];
 	} else if ([elementName isEqualToString:@"content:encoded"]) {
 		[aIkje setValue:currentElementValue forKey:@"content"];
 	}
