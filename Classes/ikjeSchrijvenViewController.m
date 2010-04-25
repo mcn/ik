@@ -11,6 +11,15 @@
 
 @implementation ikjeSchrijvenViewController
 
+- (IBAction) clearTextView {
+	[textView setText:@""];
+}
+
+- (void)textViewDidChange:(UITextView *)aTextView {
+	NSLog(@"textViewDidChange");
+	NSLog(@"%d", aTextView.text.length);
+}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

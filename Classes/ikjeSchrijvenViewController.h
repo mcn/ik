@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ik_nrc_nlAppDelegate.h"
 
+@class ik_nrc_nlAppDelegate;
 
-@interface ikjeSchrijvenViewController : UIViewController {
-
+@interface ikjeSchrijvenViewController : UIViewController <UITextViewDelegate> {
+	IBOutlet UITextView *textView;
+	IBOutlet ik_nrc_nlAppDelegate *appDelegate;
 }
+
+- (IBAction) clearTextView;
 
 @end

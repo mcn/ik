@@ -9,6 +9,7 @@
 #import "ik_nrc_nlViewController.h"
 #import "ik_nrc_nlAppDelegate.h"
 #import "ikje.h"
+#import "ikjeSchrijvenViewController.h"
 
 @implementation ik_nrc_nlViewController
 
@@ -27,6 +28,8 @@
 
 - (IBAction) navIkjes {
 	NSLog(@"navIkjes");
+	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
+	NSLog(@"selected: %d", buttons.selectedSegmentIndex); 
 	switch (buttons.selectedSegmentIndex ) {
 		case 0:
 			if (current < ([appDelegate.ikjes count] - 1 )) {
@@ -55,14 +58,7 @@
 	{
         case 0:
 		{
-			
-//			NSString * videoLink = @"http://vpodcast.dr.dk/DR2/Soeinding/2009/Soeinding_0910132030.mp4";
-//			NSLog(@"Playing video: %@", videoLink);
-//			
-//			NSURL *movieURL = [[NSURL URLWithString:videoLink] retain];
-//			
-//			MPMoviePlayerController *DingPlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
-//			[DingPlayer play];
+			[appDelegate.navigationController pushViewController:[[ikjeSchrijvenViewController alloc] init] animated:YES];
         } break;
 		case 1:
 			[self copyLinkToPasteboard];
@@ -180,6 +176,12 @@
 	// e.g. self.myOutlet = nil;
 }
 
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+	// Return YES for supported orientations.
+	//return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
+}
 
 - (void)dealloc {
     [super dealloc];
