@@ -17,13 +17,12 @@
 	
 	IBOutlet UIWebView *description;
 	IBOutlet UINavigationBar *navigationBar;
-	IBOutlet UIBarButtonItem *older;
-	IBOutlet UIBarButtonItem *newer;
+	IBOutlet UISegmentedControl *buttons;
 	int current;
 }
 
-- (IBAction) newerIkje;
-- (IBAction) olderIkje;
+- (IBAction) navIkjes;
+- (IBAction) showActionSheet;
 - (void) showIkje:(int)i;
 - (void) arrangeButtons;
 - (void) showEmailModalView;

@@ -26,7 +26,7 @@
 }
 
 - (IBAction) navIkjes {
-	NSLog(@"navIkjes: %@", buttons.selectedSegmentIndex);
+	NSLog(@"navIkjes: %d", buttons.selectedSegmentIndex);
 	switch (buttons.selectedSegmentIndex ) {
 		case 0:
 			if (current < ([appDelegate.ikjes count] - 1 )) {
@@ -83,7 +83,8 @@
 	} else if (current == ([appDelegate.ikjes count] - 1 )) {
 		[buttons setEnabled:NO forSegmentAtIndex:0];
 	} else {
-		[buttons setEnabled:YES];
+		[buttons setEnabled:YES forSegmentAtIndex:0];
+		[buttons setEnabled:YES forSegmentAtIndex:1];		
 	}
 }
 
@@ -94,6 +95,7 @@
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
 	current = 0;
 	[self showIkje:current];
+	[self arrangeButtons];
 	NSLog(@"viedDidLoad");
 }
 
