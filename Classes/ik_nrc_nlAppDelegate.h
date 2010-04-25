@@ -13,13 +13,14 @@
 @interface ik_nrc_nlAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     ik_nrc_nlViewController *viewController;
-	//IBOutlet UINavigationController*  myNavigationController;
+	UINavigationController *navigationController;
 	
 	NSMutableArray *ikjes;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet ik_nrc_nlViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, retain) NSMutableArray *ikjes;
 
 @end

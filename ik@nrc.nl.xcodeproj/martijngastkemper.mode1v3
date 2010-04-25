@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>81278B6C118455C2005508EA</string>
+				<string>81278BEB1184614A005508EA</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>XMLParser.m</string>
+				<string>ik_nrc_nlViewController.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>81278B6D118455C2005508EA</string>
+						<string>81278BEC1184614A005508EA</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>XMLParser.m</string>
+						<string>ik_nrc_nlViewController.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>81278B841184579F005508EA</string>
+						<string>81278BED1184614A005508EA</string>
 						<key>history</key>
 						<array>
-							<string>81278B73118455E2005508EA</string>
+							<string>81278BE51184613D005508EA</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -270,8 +270,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -317,7 +315,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>11</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -353,12 +351,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ik_nrc_nlViewController.m</string>
+								<string>ik_nrc_nlViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -366,11 +366,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ik_nrc_nlViewController.m</string>
+										<string>ik_nrc_nlViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>81278B831184579F005508EA</string>
+										<string>81278BEA1184614A005508EA</string>
 										<key>history</key>
 										<array>
 											<string>81432B13118103B20066A210</string>
@@ -382,15 +382,15 @@
 											<string>81278A50118433FC005508EA</string>
 											<string>81278A54118433FC005508EA</string>
 											<string>81278A6B11843AD6005508EA</string>
-											<string>81278ADB118449EF005508EA</string>
 											<string>81278ADC118449EF005508EA</string>
 											<string>81278B47118452A5005508EA</string>
-											<string>81278B4C118452D0005508EA</string>
-											<string>81278B5F11845585005508EA</string>
 											<string>81278B6011845585005508EA</string>
 											<string>81278B68118455C2005508EA</string>
+											<string>81278B8611845A0C005508EA</string>
+											<string>81278BDE11845EA1005508EA</string>
+											<string>81278BE81184614A005508EA</string>
+											<string>81278BE91184614A005508EA</string>
 											<string>81278B69118455C2005508EA</string>
-											<string>81278B6A118455C2005508EA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -590,8 +590,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8143291D1180D3F80066A210</string>
+		<string>81278BEB1184614A005508EA</string>
 		<string>/Users/martijngastkemper/Documents/git_test/ik/ik@nrc.nl.xcodeproj</string>
-		<string>81278B6C118455C2005508EA</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
@@ -616,7 +616,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>XMLParser.m</string>
+								<string>ik_nrc_nlAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -687,7 +687,7 @@
 			<key>WindowToolGUID</key>
 			<string>8143291D1180D3F80066A210</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
