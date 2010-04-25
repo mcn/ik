@@ -12,16 +12,8 @@
 
 @implementation ik_nrc_nlViewController
 
-- (IBAction) olderIkje {
-	if (current < ([appDelegate.ikjes count] - 1 )) {
-		current++;
-		[self showIkje:current];
-	}
-	[self arrangeButtons];
-}
-
-- (IBAction) newerIkje {
-	
+- (IBAction) showActionSheet {
+	NSLog(@"showActionSheet");
 	UIActionSheet *sheet = [[UIActionSheet alloc]
 							initWithTitle: @""
 							delegate:self
@@ -31,11 +23,28 @@
 	[sheet showInView:self.view];
 	[sheet release];
 	
-	//if (current != 0) {
-//		current--;
-//		[self showIkje:current];
-//	}
-//	[self arrangeButtons];
+}
+
+- (IBAction) navIkjes {
+	NSLog(@"navIkjes: %@", buttons.selectedSegmentIndex);
+	switch (buttons.selectedSegmentIndex ) {
+		case 0:
+			if (current < ([appDelegate.ikjes count] - 1 )) {
+				current++;
+				[self showIkje:current];
+			}
+			break;
+		case 1:
+			if (current != 0) {
+				current--;
+				[self showIkje:current];
+			}
+		break;
+
+		default:
+			break;
+	}
+	[self arrangeButtons];
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)indexPath
@@ -66,23 +75,14 @@
 
 
 - (void) arrangeButtons {
-	NSLog(@"arrangeButtons: %d", current);
 	if (current == 0) {
-		newer.enabled = NO;
+		[buttons setEnabled:NO forSegmentAtIndex:1];
 	} else if (current == ([appDelegate.ikjes count] - 1 )) {
-		older.enabled = NO;
+		[buttons setEnabled:NO forSegmentAtIndex:0];
 	} else {
-		newer.enabled = YES;
-		older.enabled = YES;
+		[buttons setEnabled:YES];
 	}
 }
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -140,7 +140,7 @@
 		default:
 		{
 			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email" 
-															message:@"Sending Failed – Unknown Error :-( "
+															message:@"Verzenden misluk"
 															delegate:self 
 															cancelButtonTitle:@"OK"
 															otherButtonTitles: nil];
