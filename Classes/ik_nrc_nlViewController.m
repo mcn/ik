@@ -13,8 +13,16 @@
 
 @implementation ik_nrc_nlViewController
 
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
+	current = 0;
+	[self showIkje:current];
+	[self arrangeButtons];
+}
+
 - (IBAction) showActionSheet {
-	NSLog(@"showActionSheet");
 	UIActionSheet *sheet = [[UIActionSheet alloc]
 							initWithTitle: @""
 							delegate:self
@@ -27,9 +35,7 @@
 }
 
 - (IBAction) navIkjes {
-	NSLog(@"navIkjes");
-	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
-	NSLog(@"selected: %d", buttons.selectedSegmentIndex); 
+	//appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
 	switch (buttons.selectedSegmentIndex ) {
 		case 0:
 			if (current < ([appDelegate.ikjes count] - 1 )) {
@@ -52,8 +58,6 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)indexPath
 {
-	NSLog(@"indexPath: %d", indexPath);
-    //NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
     switch (indexPath)
 	{
         case 0:
@@ -69,7 +73,6 @@
 
 			
     }
-//    [self.tableView deselectRowAtIndexPath:selectedIndexPath animated:YES];
 }
 
 
@@ -82,17 +85,6 @@
 		[buttons setEnabled:YES forSegmentAtIndex:0];
 		[buttons setEnabled:YES forSegmentAtIndex:1];		
 	}
-}
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
-	current = 0;
-	[self showIkje:current];
-	[self arrangeButtons];
-	NSLog(@"viedDidLoad");
 }
 
 - (void) showIkje:(int)i {
@@ -180,8 +172,6 @@
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	//return (interfaceOrientation == UIInterfaceOrientationPortrait);
 	return YES;
 }
 

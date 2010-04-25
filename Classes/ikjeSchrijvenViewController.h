@@ -13,7 +13,8 @@
 
 @interface ikjeSchrijvenViewController : UIViewController <UITextViewDelegate> {
 	IBOutlet UITextView *textView;
-	IBOutlet ik_nrc_nlAppDelegate *appDelegate;
+	ik_nrc_nlAppDelegate *appDelegate;
+	int wordLimit;
 }
 
 - (IBAction) clearTextView;

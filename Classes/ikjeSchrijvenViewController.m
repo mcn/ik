@@ -16,34 +16,56 @@
 }
 
 - (void)textViewDidChange:(UITextView *)aTextView {
-	NSLog(@"textViewDidChange");
-	NSLog(@"%d", aTextView.text.length);
+	//UILabel *titleLabel = [[UILabel alloc] init];
+	//[titleLabel setText:[NSString stringWithFormat:@"%d",wordLimit - aTextView.text.length]];
+//	 [titleLabel setTextColor:[UIColor redColor]];
+	 [appDelegate.navigationController.navigationBar.topItem setTitle:[NSString stringWithFormat:@"%d",wordLimit - aTextView.text.length]];
+	//appDelegate.navigationController.navigationItem.titleView = titleLabel;
+	//[appDelegate.navigationController.navigationBar.topItem setTitleView:titleLabel];
+	//[titleLabel release];
 }
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
+- (void) viewDidLoad {
+	wordLimit = 50;
+	[appDelegate.navigationController.navigationBar.topItem setTitle:[NSString stringWithFormat:@"%d",wordLimit]];
+	//UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" 
+//																	style:UIBarButtonItemStyleBordered target:nil action:nil];
+	//[appDelegate.navigationController.navigationItem setRightBarButtonItem:rightButton animated:YES];
+	//UINavigationItem *rightButton = [[UINavigationItem alloc] initWithTitle:@"Verzend"];
+//	[appDelegate.navigationController.navigationBar pushNavigationItem:rightButton animated:YES];
+//	[rightButton release];
+	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" 
+																	style:UIBarButtonSystemItemDone target:nil action:nil];
+	
+	//UINavigationItem *rightButton = [[UINavigationItem alloc] initWithTitle:@"Verzend"];
+	[appDelegate.navigationController.navigationItem setRightBarButtonItem:rightButton animated:NO];
+	[rightButton release];
 }
-*/
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
+- (void)viewWillAppear:(BOOL)animated {
+	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
+	NSLog(@"willAppear: %@ ", appDelegate.navigationController.navigationItem);
+    [super viewWillAppear:animated];
+	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" 
+																	style:UIBarButtonSystemItemDone target:nil action:nil];
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	//UINavigationItem *rightButton = [[UINavigationItem alloc] initWithTitle:@"Verzend"];
+	[appDelegate.navigationController.navigationItem setRightBarButtonItem:rightButton animated:YES];
+	//[appDelegate.navigationController.navigationBar pushNavigationItem:rightButton animated:YES];
+
+	//	[appDelegate.navigationController.navigationItem setRightBarButtonItem:rightButton animated:YES];
+//	UINavigationItem *item = [[UINavigationItem alloc] initWithTitle:@"Title"];
+//	appDelegate.navigationController.navigationItem.rightBarButtonItem = rightButton;
+//	[appDelegate.navigationController.navigationBar pushNavigationItem:item animated:NO];
+//	[rightButton release];
+	
+	
+   // appDelegate.navigationController.navigationItem.rightBarButtonItem = [ [ [UIBarButtonItem alloc]
+//																			initWithTitle:@"Verzend" style:UIBarButtonItemStyleBordered target:self action:@selector(verzend)] autorelease];
+												//UIBarButtonSystemItemAdd target:self
+//												action:@selector(add_clicked)] autorelease];
+	
 }
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -61,6 +83,7 @@
 
 - (void)dealloc {
     [super dealloc];
+	[appDelegate release];
 }
 
 
