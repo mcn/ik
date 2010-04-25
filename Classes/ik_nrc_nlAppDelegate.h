@@ -13,6 +13,7 @@
 @interface ik_nrc_nlAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     ik_nrc_nlViewController *viewController;
+	//IBOutlet UINavigationController*  myNavigationController;
 	
 	NSMutableArray *ikjes;
 }

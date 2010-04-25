@@ -12,16 +12,8 @@
 
 @implementation ik_nrc_nlViewController
 
-- (IBAction) olderIkje {
-	if (current < ([appDelegate.ikjes count] - 1 )) {
-		current++;
-		[self showIkje:current];
-	}
-	[self arrangeButtons];
-}
-
-- (IBAction) newerIkje {
-	
+- (IBAction) showActionSheet {
+	NSLog(@"showActionSheet");
 	UIActionSheet *sheet = [[UIActionSheet alloc]
 							initWithTitle: @""
 							delegate:self
@@ -31,11 +23,28 @@
 	[sheet showInView:self.view];
 	[sheet release];
 	
-	//if (current != 0) {
-//		current--;
-//		[self showIkje:current];
-//	}
-//	[self arrangeButtons];
+}
+
+- (IBAction) navIkjes {
+	NSLog(@"navIkjes");
+	switch (buttons.selectedSegmentIndex ) {
+		case 0:
+			if (current < ([appDelegate.ikjes count] - 1 )) {
+				current++;
+				[self showIkje:current];
+			}
+			break;
+		case 1:
+			if (current != 0) {
+				current--;
+				[self showIkje:current];
+			}
+		break;
+
+		default:
+			break;
+	}
+	[self arrangeButtons];
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)indexPath
@@ -69,23 +78,15 @@
 
 
 - (void) arrangeButtons {
-	NSLog(@"arrangeButtons: %d", current);
 	if (current == 0) {
-		newer.enabled = NO;
+		[buttons setEnabled:NO forSegmentAtIndex:1];
 	} else if (current == ([appDelegate.ikjes count] - 1 )) {
-		older.enabled = NO;
+		[buttons setEnabled:NO forSegmentAtIndex:0];
 	} else {
-		newer.enabled = YES;
-		older.enabled = YES;
+		[buttons setEnabled:YES forSegmentAtIndex:0];
+		[buttons setEnabled:YES forSegmentAtIndex:1];		
 	}
 }
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -94,10 +95,12 @@
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
 	current = 0;
 	[self showIkje:current];
+	[self arrangeButtons];
 	NSLog(@"viedDidLoad");
 }
 
 - (void) showIkje:(int)i {
+	NSLog(@"showikje: %d", i);
 	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
 	NSString *html = @"<html><head><title></title><style type=\"text/css\">body{font-family: verdana; font-size: 13px; line-height: 150%} strong{display: block;text-transform: uppercase; text-align: right;}</style></head><body>";
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
@@ -143,7 +146,7 @@
 		default:
 		{
 			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email" 
-															message:@"Sending Failed – Unknown Error :-( "
+															message:@"Verzenden misluk"
 															delegate:self 
 															cancelButtonTitle:@"OK"
 															otherButtonTitles: nil];

@@ -11,7 +11,25 @@
 
 @implementation ikje
 
-@synthesize guid, title, link, pubDate, content;
+@synthesize guid, link, pubDate, content, title;
+
+//@dynamic title;
+//
+//- (NSString *)title {
+//	
+//    return [title autorelease];
+//	
+//}
+//
+//- (void) setTitle:(NSString *) newTitle{
+//	NSLog(@"setTitle: %@", newTitle);
+//	if (newTitle != title) {
+//		[newTitle retain];
+//		[title release];
+//        title = [newTitle stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+//		
+//    }
+//}
 
 - (void) dealloc {
 	[title release];

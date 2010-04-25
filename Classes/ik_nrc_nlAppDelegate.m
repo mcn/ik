@@ -18,12 +18,12 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	
-	//NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ik" ofType:@"xml"];
-	//NSData *data = [NSData dataWithContentsOfFile:filePath];
+	NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ik" ofType:@"xml"];
+	NSData *data = [NSData dataWithContentsOfFile:filePath];
 //	NSLog([data )
-	//NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:data];
-	NSURL *url = [[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/feed/"];
-	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:data];
+	//NSURL *url = [[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/feed/"];
+	//NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
 	
 	//Initialize the delegate.
 	XMLParser *parser = [[XMLParser alloc] initXMLParser];

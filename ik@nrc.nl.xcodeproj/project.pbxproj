@@ -18,6 +18,10 @@
 		767BAF6B1183600100CDDDDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BAF6A1183600100CDDDDE /* Default.png */; };
 		76CDFD8711825FA5004DA8B8 /* ik.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CDFD8611825FA5004DA8B8 /* ik.png */; };
 		8127896811833DAE005508EA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8127896711833DAE005508EA /* MessageUI.framework */; };
+		81278A3F1183C6C0005508EA /* ikjeInsturenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278A3D1183C6C0005508EA /* ikjeInsturenViewController.m */; };
+		81278A401183C6C0005508EA /* ikjeInsturenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81278A3E1183C6C0005508EA /* ikjeInsturenViewController.xib */; };
+		81278A47118433E5005508EA /* ikjeSchrijvenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81278A45118433E5005508EA /* ikjeSchrijvenViewController.m */; };
+		81278A48118433E5005508EA /* ikjeSchrijvenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81278A46118433E5005508EA /* ikjeSchrijvenViewController.xib */; };
 		814329251180D6DE0066A210 /* ikje.m in Sources */ = {isa = PBXBuildFile; fileRef = 814329241180D6DE0066A210 /* ikje.m */; };
 		8143292A1180D9E40066A210 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 814329291180D9E40066A210 /* XMLParser.m */; };
 		81432B0E118102780066A210 /* ik.xml in Resources */ = {isa = PBXBuildFile; fileRef = 81432B0D118102780066A210 /* ik.xml */; };
@@ -39,6 +43,12 @@
 		767BAF6A1183600100CDDDDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		76CDFD8611825FA5004DA8B8 /* ik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ik.png; sourceTree = "<group>"; };
 		8127896711833DAE005508EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		81278A3C1183C6C0005508EA /* ikjeInsturenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ikjeInsturenViewController.h; path = ../ikjeInsturenViewController.h; sourceTree = "<group>"; };
+		81278A3D1183C6C0005508EA /* ikjeInsturenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ikjeInsturenViewController.m; path = ../ikjeInsturenViewController.m; sourceTree = "<group>"; };
+		81278A3E1183C6C0005508EA /* ikjeInsturenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ikjeInsturenViewController.xib; sourceTree = "<group>"; };
+		81278A44118433E5005508EA /* ikjeSchrijvenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikjeSchrijvenViewController.h; sourceTree = "<group>"; };
+		81278A45118433E5005508EA /* ikjeSchrijvenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ikjeSchrijvenViewController.m; sourceTree = "<group>"; };
+		81278A46118433E5005508EA /* ikjeSchrijvenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ikjeSchrijvenViewController.xib; path = Classes/ikjeSchrijvenViewController.xib; sourceTree = "<group>"; };
 		814329231180D6DE0066A210 /* ikje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikje.h; sourceTree = "<group>"; };
 		814329241180D6DE0066A210 /* ikje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ikje.m; sourceTree = "<group>"; };
 		814329281180D9E40066A210 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
@@ -65,12 +75,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				81278A3C1183C6C0005508EA /* ikjeInsturenViewController.h */,
+				81278A3D1183C6C0005508EA /* ikjeInsturenViewController.m */,
 				814329281180D9E40066A210 /* XMLParser.h */,
 				814329291180D9E40066A210 /* XMLParser.m */,
 				1D3623240D0F684500981E51 /* ik_nrc_nlAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ik_nrc_nlAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ik_nrc_nlViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* ik_nrc_nlViewController.m */,
+				81278A44118433E5005508EA /* ikjeSchrijvenViewController.h */,
+				81278A45118433E5005508EA /* ikjeSchrijvenViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,8 +128,10 @@
 			children = (
 				2899E5210DE3E06400AC0155 /* ik_nrc_nlViewController.xib */,
 				81432B0D118102780066A210 /* ik.xml */,
+				81278A46118433E5005508EA /* ikjeSchrijvenViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* ik_nrc_nl-Info.plist */,
+				81278A3E1183C6C0005508EA /* ikjeInsturenViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,6 +193,8 @@
 				81432B0E118102780066A210 /* ik.xml in Resources */,
 				76CDFD8711825FA5004DA8B8 /* ik.png in Resources */,
 				767BAF6B1183600100CDDDDE /* Default.png in Resources */,
+				81278A401183C6C0005508EA /* ikjeInsturenViewController.xib in Resources */,
+				81278A48118433E5005508EA /* ikjeSchrijvenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +210,8 @@
 				28D7ACF80DDB3853001CB0EB /* ik_nrc_nlViewController.m in Sources */,
 				814329251180D6DE0066A210 /* ikje.m in Sources */,
 				8143292A1180D9E40066A210 /* XMLParser.m in Sources */,
+				81278A3F1183C6C0005508EA /* ikjeInsturenViewController.m in Sources */,
+				81278A47118433E5005508EA /* ikjeSchrijvenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
