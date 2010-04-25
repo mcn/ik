@@ -55,7 +55,7 @@
 	{
         case 0:
 		{
-			
+			//[appDelegate.navigationController pushViewController:appDelegate.schrijfViewController animated:YES];
 //			NSString * videoLink = @"http://vpodcast.dr.dk/DR2/Soeinding/2009/Soeinding_0910132030.mp4";
 //			NSLog(@"Playing video: %@", videoLink);
 //			
