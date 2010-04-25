@@ -56,7 +56,7 @@
 //			[DingPlayer play];
         } break;
 		case 1:
-		
+			[self copyLinkToPasteboard];
 			break;
 		case 2:
 			[self showEmailModalView];
@@ -153,6 +153,16 @@
 		break;
 	}
 	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (void) copyLinkToPasteboard {
+	ikje *currentIkje = [appDelegate.ikjes objectAtIndex:current];
+	UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+	NSDictionary *item = [NSDictionary dictionaryWithObjectsAndKeys:
+						  currentIkje.guid, @"public.utf8-plain-text", [NSURL URLWithString:currentIkje.guid],
+						  (NSString *)currentIkje.guid,
+						  nil];
+	pasteboard.items = [NSArray arrayWithObject:item];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -27,6 +27,7 @@
 - (void) showIkje:(int)i;
 - (void) arrangeButtons;
 - (void) showEmailModalView;
+- (void) copyLinkToPasteboard;
 
 @end
 
