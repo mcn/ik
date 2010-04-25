@@ -100,9 +100,11 @@
 }
 
 - (void) showIkje:(int)i {
+	ikje *currentIkje = [appDelegate.ikjes objectAtIndex:current];
 	NSLog(@"showikje: %d", i);
 	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
-	NSString *html = @"<html><head><title></title><style type=\"text/css\">body{font-family: verdana; font-size: 13px; line-height: 150%} strong{display: block;text-transform: uppercase; text-align: right;}</style></head><body>";
+	NSString *backgroundImage = @"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAAyCAMAAAFt1MJwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARpQTFRF/vr61RYc1RMZ0wsS1RIY2Skv9MHD7p6g6oeL1x4l5nZ6/fX21RQa/vj4/vf43UNI+Nrb3kRJ/fP0/fHy99HS+uLj6oyP30xR7p+h7Z2f30tQ1hce2jI31hoh5GZq42Ro3DxC646R9szN4l5i8bGz9s/Q99DR+dzd/O/v2S0z+uTl9MDC9MLE99LT7JaZ7JWY2zM52CUr3UFG1RUb3klO+dvc1yAm87u94FFW3T9E8ra4+uXm4l1i3D5E3DtB/vz89cnL4lxh8a+x/PHx2Sgu53l9++vr2CQq9L/B6ouP/O7u6oqO/PDw4FNY/fb3+eDh5nF142Bk2CYs4FJX5nR41BAX3kdM4E9U87y+99TV++rq7p+i0wkQ////JXY11AAAAhFJREFUeNpiiCUSMMQaE6swNoZohTHEKbTnJ9bEWOoqBAggEhSqE6uQKYba4RgzUL4GCCCiFZJgIF+ML3UNBCWzGKoaaEtF88DxLBJLbS9TEwAE0FAwkDuG2i6MiaG2l2NihKlroF5MDBdVDfSKiQmnspf9B3WkaMTEjmY9igBAAFHdwJHpQMaYGMnBHYKewFqUc1BHMW8MCHgM5jQoC3ai1KB1INh50YM2BFWArmMZxGmQJSZGcXDn4kFcGo7WJJQCgADs1jEOQEAQhWEhQiGxJDoJkWgoNC5A4QJCNfc/h511iV/MDb5kd957BvwHMIIDc7nZwEGkYD9x5ZvuQB+JLoWdDBxV2JFjplRhSs7BsAcl4gLdK+QC2+CbsMBMeTH3D9bqW8FXnHjfAs7B0/scuElmkQvdxZv08D3Y2KI2oAG/C3wEaL/eWggIwjCOW7LOymkp5UYpRbHlLCnkgoRcoPn+n0PbNPbWvHuB+j+fYPr1zrzP/PwBAQSQfARYLbUrcIgBy6ug8A/vgIgnMK3/xLsCJsI3sONowsEaFdkSyflaUCU8XGRb+KBMZiNoJDWm77wJ8ylwBD0wVldhpgt8rIu0Gw8Buz18bAEvIV+2iI4t4KNp9JIuNPaAN8N3PgFjD1jba73rBBUJoKf5WhtMJIDPbaA3ngMinsBGZnmEI3oPJAAC+F+AikQKE8gV/m5eKwCZ2giSjtwAAAAASUVORK5CYII=";
+	NSString *html = [NSString stringWithFormat:@"<html><head><title></title><style type=\"text/css\">h1{ margin: 10px 0px 20px 0px; font-family: Helvetica; font-size: 20px;} html{font-family: verdana; font-size: 14px; background: url(\"%@\") top left no-repeat;} body{margin: 0px 10px 0px 35px;} strong{display: block;text-transform: uppercase; text-align: right;}</style></head><body><h1>%@</h1>", backgroundImage, currentIkje.title];
 	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
 	html = [html stringByAppendingFormat:@"</body></html>"];
 	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/"]];
