@@ -19,7 +19,7 @@
 							delegate:self
 							cancelButtonTitle:@"Annuleren"
 							destructiveButtonTitle:nil
-							otherButtonTitles:@"Insturen", @"Versturen", nil];
+							otherButtonTitles:@"Zelf een ‘ik’ insturen", @"Kopieer link van deze ‘ik’", @"Deze ‘ik’ versturen", nil];
 	[sheet showInView:self.view];
 	[sheet release];
 	
@@ -65,6 +65,9 @@
 //			[DingPlayer play];
         } break;
 		case 1:
+		
+			break;
+		case 2:
 			[self showEmailModalView];
 		break;
 
@@ -107,12 +110,12 @@
     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
     picker.mailComposeDelegate = self; // <- very important step if you want feedbacks on what the user did with your email sheet
 	
-    [picker setSubject:@"subject"];
+    [picker setSubject:currentIkje.title];
 	
     // Fill out the email body text
     NSString *pageLink = @"http://mugunthkumar.com/mygreatapp"; // replace it with yours
     NSString *iTunesLink = @"http://link-to-mygreatapp"; // replate it with yours
-    NSString *emailBody = [NSString stringWithFormat:@"%@\n\n<h3>Sent from <a href = '%@'>MyGreatApp</a> on iPhone. <a href = '%@'>Download</a> yours from AppStore now!</h3>", currentIkje.guid, pageLink, iTunesLink];
+    NSString *emailBody = [NSString stringWithFormat:@"[ik@nrc.nl is een lezerscolumn van NRC Handelsblad] %@ <a href='%@'>%@</a><br><br>Met de <a href = '%@'>ik@nrc.nl iPhone applicatie</a> verstuurt. <a href = '%@'>Download</a> de applicatie in de iTunes-winkel!", currentIkje.content, currentIkje.guid, currentIkje.guid, pageLink, iTunesLink];
 	
     [picker setMessageBody:emailBody isHTML:YES]; // depends. Mostly YES, unless you want to send it as plain text (boring)
 	
