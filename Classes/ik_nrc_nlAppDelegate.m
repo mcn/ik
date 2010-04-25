@@ -8,13 +8,14 @@
 
 #import "ik_nrc_nlAppDelegate.h"
 #import "ik_nrc_nlViewController.h"
-#import "ikjeSchrijfViewController.h"
-#import "ikjeInsturenViewController.h"
 #import "XMLParser.h"
 
 @implementation ik_nrc_nlAppDelegate
 
-@synthesize ikjes, window, navigationController, ikjesViewController, schrijfViewController, insturenViewController;
+@synthesize window;
+@synthesize viewController;
+@synthesize ikjes;
+@synthesize navigationController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	
@@ -46,22 +47,16 @@
 	
 	
 	//[self.navigationController pushViewController:viewController animated:YES];
-	
-//	(NSArray *) views = [NSArray arrayWithObjects:[
-//	[navigationController s
-	//avigationController = [navigationController initWithRootViewController:ikjesViewController];
+	//[navigationController initWithRootViewController:viewController];
 	// Configure and show the window
-	[window addSubview:[ikjesViewController view]];
+	[window addSubview:[viewController view]];
 	//[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
-    [navigationController release];
-	[ikjesViewController release];
-	[schrijfViewController release];
-	[insturenViewController release];
+    [viewController release];
     [window release];
     [super dealloc];
 }

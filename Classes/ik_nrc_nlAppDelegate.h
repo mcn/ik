@@ -9,24 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @class ik_nrc_nlViewController;
-@class ikjeInsturenViewController;
-@class ikjeSchrijfViewController;
 
 @interface ik_nrc_nlAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+    ik_nrc_nlViewController *viewController;
 	UINavigationController *navigationController;
-    ik_nrc_nlViewController *ikjesViewController;
-	ikjeSchrijfViewController *schrijfViewController;
-	ikjeInsturenViewController *insturenViewController;
 	
 	NSMutableArray *ikjes;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet ik_nrc_nlViewController *viewController;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, retain) IBOutlet ik_nrc_nlViewController *ikjesViewController;
-@property (nonatomic, retain) IBOutlet ikjeSchrijfViewController *schrijfViewController;
-@property (nonatomic, retain) IBOutlet ikjeInsturenViewController *insturenViewController;
 @property (nonatomic, retain) NSMutableArray *ikjes;
 
 @end
