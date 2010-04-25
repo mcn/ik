@@ -15,6 +15,7 @@
 @synthesize window;
 @synthesize viewController;
 @synthesize ikjes;
+@synthesize navigationController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	
@@ -45,8 +46,11 @@
 	}
 	
 	
+	//[self.navigationController pushViewController:viewController animated:YES];
+	[navigationController initWithRootViewController:viewController];
 	// Configure and show the window
-	[window addSubview:[viewController view]];
+	//[window addSubview:[viewController view]];
+	[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
 }
 
