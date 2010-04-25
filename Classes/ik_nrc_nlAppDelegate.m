@@ -47,10 +47,10 @@
 	
 	
 	//[self.navigationController pushViewController:viewController animated:YES];
-	[navigationController initWithRootViewController:viewController];
+	//[navigationController initWithRootViewController:viewController];
 	// Configure and show the window
-	//[window addSubview:[viewController view]];
-	[window addSubview:navigationController.view];
+	[window addSubview:[viewController view]];
+	//[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
 }
 

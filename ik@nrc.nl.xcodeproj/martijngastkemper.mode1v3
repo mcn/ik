@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>81278BEB1184614A005508EA</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>ik_nrc_nlViewController.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>81278BEC1184614A005508EA</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>ik_nrc_nlViewController.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>81278BED1184614A005508EA</string>
-						<key>history</key>
-						<array>
-							<string>81278BE51184613D005508EA</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {949, 677}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 60 949 718 0 0 1920 1178 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -358,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ik_nrc_nlViewController.h</string>
+								<string>ik_nrc_nlAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -366,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ik_nrc_nlViewController.h</string>
+										<string>ik_nrc_nlAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>81278BEA1184614A005508EA</string>
+										<string>81278BF6118462A1005508EA</string>
 										<key>history</key>
 										<array>
 											<string>81432B13118103B20066A210</string>
@@ -388,9 +347,9 @@
 											<string>81278B68118455C2005508EA</string>
 											<string>81278B8611845A0C005508EA</string>
 											<string>81278BDE11845EA1005508EA</string>
-											<string>81278BE81184614A005508EA</string>
 											<string>81278BE91184614A005508EA</string>
-											<string>81278B69118455C2005508EA</string>
+											<string>81278BF31184628C005508EA</string>
+											<string>81278BF41184628C005508EA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -590,9 +549,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8143291D1180D3F80066A210</string>
-		<string>81278BEB1184614A005508EA</string>
-		<string>/Users/martijngastkemper/Documents/git_test/ik/ik@nrc.nl.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/martijngastkemper/Documents/git_test/ik/ik@nrc.nl.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 60 1920 1118 0 0 1920 1178 </string>
