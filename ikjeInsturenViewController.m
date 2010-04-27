@@ -11,13 +11,6 @@
 
 @implementation ikjeInsturenViewController
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
 	appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -33,15 +26,31 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	fields = [[NSArray alloc] initWithObjects:naam, woonplaats, kopsuggestie, nil];
+}
+
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
+- (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewStyleGrouped reuseIdentifier:@"cell"];
+	//cell.accessoryView = [fields objectAtIndex:indexPath.row]; 
+	//textLabel.text = [fields objectAtIndex:indexPath.row];
+	return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [fields count];
+}
 
 - (void)dealloc {
     [super dealloc];
+	[appDelegate release];
 }
 
 

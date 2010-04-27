@@ -19,7 +19,7 @@
 	NSLog(@"toIkjeVersturen: %d", textView.text.length);
 	if (textView.text.length > wordLimit) {
 		//TODO: Hide keyboard!
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lengte" message:[NSString stringWithFormat:@"Het maximaal aantal tekens van %d is overschreden", wordLimit] delegate:nil cancelButtonTitle:@"Terug" otherButtonTitles:nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lengte" message:[NSString stringWithFormat:@"Helaas, de maximale lengte is %d tekens", wordLimit] delegate:nil cancelButtonTitle:@"Ok, ik kort het in" otherButtonTitles:nil];
 		[alert show];
 		[alert release];
 	} else {

@@ -10,10 +10,14 @@
 #import "ik_nrc_nlAppDelegate.h"
 
 
-@interface ikjeInsturenViewController : UIViewController {
+@interface ikjeInsturenViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 
 	ik_nrc_nlAppDelegate *appDelegate;
 	IBOutlet UIBarButtonItem *rightButton;
+	IBOutlet UITextField *naam;
+	IBOutlet UITextField *woonplaats;
+	IBOutlet UITextField *kopsuggestie;
+	NSArray *fields;
 }
 
 @end
