@@ -12,9 +12,8 @@
 @class ik_nrc_nlAppDelegate;
 
 @interface ik_nrc_nlViewController : UIViewController <UIActionSheetDelegate, MFMailComposeViewControllerDelegate> {
-	IBOutlet ik_nrc_nlAppDelegate *appDelegate;
+	ik_nrc_nlAppDelegate *appDelegate;
 	IBOutlet UIWebView *description;
-	IBOutlet UINavigationBar *navigationBar;
 	IBOutlet UISegmentedControl *buttons;
 	int current;
 }

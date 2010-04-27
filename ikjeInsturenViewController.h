@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ik_nrc_nlAppDelegate.h"
 
 
 @interface ikjeInsturenViewController : UIViewController {
 
+	ik_nrc_nlAppDelegate *appDelegate;
+	IBOutlet UIBarButtonItem *rightButton;
 }
 
 @end

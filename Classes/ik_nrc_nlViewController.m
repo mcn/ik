@@ -35,15 +35,16 @@
 }
 
 - (IBAction) navIkjes {
-	//appDelegate = (ik_nrc_nlAppDelegate *)[[UIApplication sharedApplication] delegate];
 	switch (buttons.selectedSegmentIndex ) {
 		case 0:
+			NSLog(@"older");
 			if (current < ([appDelegate.ikjes count] - 1 )) {
 				current++;
 				[self showIkje:current];
 			}
 			break;
 		case 1:
+			NSLog(@"newer");
 			if (current != 0) {
 				current--;
 				[self showIkje:current];
@@ -61,17 +62,14 @@
     switch (indexPath)
 	{
         case 0:
-		{
 			[appDelegate.navigationController pushViewController:[[ikjeSchrijvenViewController alloc] init] animated:YES];
-        } break;
+			break;
 		case 1:
 			[self copyLinkToPasteboard];
 			break;
 		case 2:
 			[self showEmailModalView];
-		break;
-
-			
+		break;			
     }
 }
 
@@ -88,12 +86,11 @@
 }
 
 - (void) showIkje:(int)i {
-	ikje *currentIkje = [appDelegate.ikjes objectAtIndex:current];
-	NSLog(@"showikje: %d", i);
-	navigationBar.topItem.title = [[appDelegate.ikjes objectAtIndex:i] title];
+	ikje *currentIkje = [appDelegate.ikjes objectAtIndex:i];
+	[appDelegate.navigationController.navigationBar.topItem setTitle:currentIkje.title];
 	NSString *backgroundImage = @"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAMAAAH5KRy1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOFQTFRF0wkQ0gIJ0QAE0QAC0gUM0QAF0AAB0wcP87u9//390woR3D1D0QAD98/Q31BT0QAB0gQL0gcJ/fT01AwT2Scs8ra49cfI3URJ415i/fT1+uXl76ap1yIn/O/w1hog8Kiq0AAA/fP0++bm6oiM6YGF+dvd7ZmczwAA2Skv9cnL7JSX1yEm42Fl+uTl5GZq42Jm5nZ60AAC53h85Gdr76Sn1RQb2Ssx99LT6YaI0QAG+NjZ0wcO0gML0QAH3kZL4ltg3DxC0gYM1RUazgAA+uPk//7+0gMK0QIH0wUM8Kqt////uXjaPgAAAMBJREFUeNpi8PJi8GJl8PICCCAGLwZ7BnmAAGLwsgPyHbQBAggo4MXACpLjEgLKeDE4e3kBBBCDF68XSNhLidEJRHl58XCpM3iJMkpAeEAAEEBwihNMmShIgXkylp5gJYYseiDKgMFGi8FLkomJA8hzZJIFyumYImkHCDAoBeOoCBorwjle+szMZppwZdLu7IwsyjA9uhpuDNb84lZgjrmcB4OtsJoriGPEzM7GrQpW5iLCJmDBCTWAg08MYQ8SAABGpTYnYu/0vQAAAABJRU5ErkJggg==";
 	NSString *html = [NSString stringWithFormat:@"<html><head><title></title><style type=\"text/css\">h1{background: url(\"%@\") 2px left no-repeat; border-bottom: 1px solid #d30910; padding: 0px 0px 5px 20px; margin: 10px 0px 15px 0px; font-family: Helvetica; font-size: 20px;} html{font-family: verdana; font-size: 14px;} body{margin: 0px 15px 0px 15px;} strong{font-family: helvetica; display: block;text-transform: uppercase; text-align: right; font-size: 13px;}</style></head><body><h1>%@</h1>", backgroundImage, currentIkje.title];
-	html = [html stringByAppendingFormat:[[appDelegate.ikjes objectAtIndex:i] content]];
+	html = [html stringByAppendingFormat:currentIkje.content];
 	html = [html stringByAppendingFormat:@"</body></html>"];
 	[description loadHTMLString:html baseURL:[[NSURL alloc] initWithString:@"http://weblogs.nrc.nl/ik/"]];
 }
@@ -114,7 +111,6 @@
 	
     [self presentModalViewController:picker animated:YES];
     [picker release];
-	
 }
 
 // Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
@@ -177,6 +173,7 @@
 
 - (void)dealloc {
     [super dealloc];
+	[appDelegate release];
 }
 
 @end

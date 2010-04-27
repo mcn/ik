@@ -13,10 +13,11 @@
 
 @interface ikjeSchrijvenViewController : UIViewController <UITextViewDelegate> {
 	IBOutlet UITextView *textView;
+	IBOutlet UIBarButtonItem *barButton;
 	ik_nrc_nlAppDelegate *appDelegate;
 	int wordLimit;
 }
-
+- (IBAction) toIkjeInsturen;
 - (IBAction) clearTextView;
 
 @end
